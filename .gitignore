@@ -1,0 +1,49 @@
+# ===== Keil MDK 工程（.uvprojx 可以提交，以下这些不要）=====
+*.uvguix.*
+*.uvoptx
+*.bak
+Objects/
+Listings/
+DebugConfig/
+RTE/_*/
+*.hex
+*.bin
+*.axf
+*.map
+*.htm
+*.lnp
+*.dep
+*.crf
+*.o
+*.d
+*.lst
+*.iex
+*.sct
+
+# ===== STM32CubeIDE / Eclipse =====
+Debug/
+Release/
+.settings/
+.mxproject
+*.launch
+*.elf
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.idea/
+.vscode/
+*.swp
+
+# ===== 大文件与个人数据 =====
+*.zip
+*.rar
+*.7z
+*.pdf
+*.mp4
+*.avi
+# 车队相关：技术方案、图纸、比赛数据一律不进公开仓库
+车队资料/
+比赛数据/
