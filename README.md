@@ -31,11 +31,10 @@
 | # | 问题 | 解决 |
 |---|---|---|
 | 1 | ST-Link 4 孔母座插不进护套 | 拆成单根，逐根插到底 |
-| 2 | 配色反了（黄=GND） | 改回 红=3V3、棕=GND、橙=SWCLK、黄=SWDIO |
-| 3 | 漏 Define 宏，RCC 全报未声明 | 填 `USE_STDPERIPH_DRIVER,STM32F10X_MD` |
-| 4 | 灯亮但不闪 | 延时 500000 → 5000000（原值太快，10Hz 人眼融合） |
-| 5 | 没有万用表怎么验线 | Keil → Settings 读 `IDCODE 0x1BA01477` |
-| 6 | 文件末尾无换行警告 | 末尾敲回车 |
+| 2 | 漏 Define 宏，RCC 全报未声明 | 填 `USE_STDPERIPH_DRIVER,STM32F10X_MD` |
+| 3 | 灯亮但不闪 | 延时 500000 → 5000000（原值太快，10Hz 人眼融合） |
+| 4 | 没有万用表怎么验线 | Keil → Settings 读 `IDCODE 0x1BA01477` |
+| 5 | 文件末尾无换行警告 | 末尾敲回车 |
 
 ---
 
